@@ -10,7 +10,7 @@ const link = {
   textDecoration: 'none',
   color: 'white',
 }
- 
+
 /* add the navbar component */
 const Navbar = () =>
   <div>
@@ -42,11 +42,11 @@ const Navbar = () =>
       }}
     >Login</NavLink>
   </div>;
- 
+
 const Home = () => <h1>Home!</h1>;
- 
+
 const About = () => <h1>This is my about component!</h1>;
- 
+
 const Login = () =>
   <form>
     <h1>Login</h1>
@@ -60,7 +60,7 @@ const Login = () =>
     </div>
     <input type="submit" value="Login" />
   </form>;
- 
+
 ReactDOM.render((
   <Router>
     <React.Fragment>
